@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>candy mountain doesnt approve</title>
+
+</head>
+<body bgcolor="#000000">
+
+<header>   
+    <h1>Favoritt spill</h1>
+</header> 
+
+<!--Bakgrunnene-->
+<img class="Bakgrunnsbilde" src="https://live.staticflickr.com/65535/53921553029_49cfee5d1f_h.jpg" alt="Blide av Natlan">
+
+<img class="Bakgrunnsbilde" id="jinzhou"src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/05/wuthering-waves-jinzhou.jpg" alt="Blide av Jinzhou City">
+
+<img class="Bakgrunnsbilde" id="jungle" src="https://ccdn.g-portal.com/mc_blog_jungle_pyramid_7_c2c3a5c05d.png" alt="Bilde av Minecraft Jungle med shaders">
+
+<img class="Bakgrunnsbilde" id="phasmo" src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/03/phasmophobia_-the-15-scariest-ghosts-ranked.jpg" alt="Bilde av ghost models i Phasmophobia">
+
+<!--Bakgrunnen til texten og selve texten-->
+<div id="textbg">
+     <p class="text"><br>Genshin Impact er et spill hvor man kan utforske ulike regioner og samle på karakterer.
+     <br><br>Noe som gjør Genshin gøy er selve utforskningen av verden på grunn av grafikkene og alle mysteriene som er i verden.<br><br>Videoen nedenfor inneholder en cutscene fra den nye hoved historien, og grafikkene er mer eller mindre det samme i selve spillet.</p>
+</div>
+
+<div id="textwwbg">
+    <p class="text"><br>Wuthering Waves tar deg til et sted i en post-apokalyptisk verden hvor hovedkarakteren prøver å få minene tilbake.<br><br>Det som gjør Wuthering Waves gøy å spille er hvordan combat systemet er i spillet og det man kan utforske av verden.
+    </p>
+</div>
+
+<div id="textmcbg">
+    <p class="text"><br>Minecraft er et spill hvor man kan bygge hva man vil og spille med venner.<br><br>Man kan laste ned ulike datapacks og resourcepacks får å gjøre spillet morsommere. Hvis man har lyst på noe helt nytt, kan man laste ned mods og de kan legge til nye ting og dyr, i tilleg til å gjre spillet vanskligere.<br><br>Nedenfor er det traileren av den nye opptaderingen, der de har lagt til en ny struktur</p>
+</div>
+
+<div id="textphasmobg">
+    <p class="text"><br>Phasmophobia er et horror 4 player co-op spill der man bruker ulike utstyr for å finne det riktige spøkelse  i runden. Man kan også spille alene men det er ofte morsommere å spille med venner.<br><br>Det kan bli mye kaos når man spiller som foreksempel i videoen nedenfor.</p>
+</div>
+
+<!--Youtube videoene-->
+<iframe id="cutscene"src="https://www.youtube.com/embed/J4uJsK1gNKg"></iframe>
+
+<iframe id="launch" src="https://www.youtube.com/embed/hRhVca9Aeu4"></iframe>
+
+<iframe id="trailer" src="https://www.youtube.com/embed/NG-5L34HqOs"></iframe>
+
+<iframe id="gigsphasmoedit" src="https://www.youtube.com/embed/Q30DZr8Gvh0"></iframe>
+
+<!--Bilde av coverene-->
+<img class="cover" id="gsi" src="https://cdn1.epicgames.com/offer/879b0d8776ab46a59a129983ba78f0ce/genshintall_1200x1600-4a5697be3925e8cb1f59725a9830cafc" alt="Blide av coveret til Genshin Impact fra Epic Games">
+
+<img class="cover" id="wuwa" src="https://cdn-bgp.bluestacks.com/BGP/us/gametiles_com.kurogame.wutheringwaves.global.jpg" alt="Bilde av coveret til Wuthering Waves fra Bluestacks">
+
+<img class="cover" id="Minecraft" src="https://image.api.playstation.com/vulcan/ap/rnd/202407/0401/670c294ded3baf4fa11068db2ec6758c63f7daeb266a35a1.png" alt="Bilde av et Minecraft cover">
+
+<img class="cover" id="Phasmophobia" src="https://howlongtobeat.com/games/83704_Phasmophobia.jpg" alt="Bildet av coveret til Phasmophobia">
+
+<!--kontaktskjema-->
+<div id="skjema">
+    <form action="skjema_sendt.html">
+     <fieldset>
+        <legend><span style="color:#ffffff">Send en melding</span></legend>
+        <label><span style="color:#ffffff">Navn:</span></label>
+            <input type="text" required placeholder="Navn">
+        <label><span  style="color:#ffffff">Email:</span></label>
+            <input type="email" required placeholder="Email">
+        <label><span  style="color:#ffffff">Melding:</span></label>
+            <textarea>
+            </textarea><br>
+            <input id="submit" type="submit" value="submit">
+    </fieldset>
+    </form>
+</div>
+</body>
+
+<style>
+
+body{
+    height: 3000px;
+    margin: 0;
+   overflow-x:hidden;
+   font-family: Arial;
+}
+
+h1{
+    margin-top: 0;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(169, 169, 169, 0.436);
+    padding: 32px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px black;
+}
+/*Bakgrunnsbildene*/
+.Bakgrunnsbilde{
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+    position: absolute;
+    border-radius: 20px;
+    opacity: 50%;
+}
+
+#jinzhou{
+    bottom: -1100px;
+    
+}
+
+#jungle{
+    bottom: -2040px;
+}
+
+#phasmo{
+    bottom: -2900px;
+}
+/*Text boksene og text*/
+#textbg{
+    height: 570px;
+    width: 440px;
+    border-radius: 5px;
+    background-color: rgba(169, 169, 169, 0.534);
+    position: absolute;
+    bottom: -100px ; 
+    margin-left: 0;
+    margin-right:0;
+    left: 290px;
+}
+
+#textwwbg{
+    background-color: rgba(169, 169, 169, 0.534);
+    position: absolute;
+    left: 290px;
+    bottom: -1010px;
+    height: 570px;
+    width: 440px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+#textmcbg{
+    height: 570px;
+    width: 440px;
+    border-radius: 5px;
+    background-color: rgba(169, 169, 169, 0.534);
+    position: absolute;
+    bottom: -1910px ;
+    left: 290px;
+}
+
+#textphasmobg{
+    height: 570px;
+    width: 440px;
+    border-radius: 5px;
+    background-color: rgba(169, 169, 169, 0.534);
+    position: absolute;
+    bottom: -2813px;
+    left: 290px;
+}
+
+.text{
+    font-size: 18px;
+    position: absolute;
+    left: 10px;
+    margin: 0;
+}
+/*Cover bildene*/
+.cover{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 730px;
+    height: 607px;
+    max-width: 470px;
+    border-radius: 5px;
+}
+
+#gsi{
+    bottom: -120px;
+}
+
+#wuwa{
+    bottom: -1030px;
+}
+
+#Minecraft{
+    bottom: -1930px;
+}
+
+#Phasmophobia{
+    bottom: -2830px;
+}
+/*Videoene*/
+#cutscene{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 310px;
+    bottom: -90px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#launch{
+    position: absolute;
+    left: 310px;
+    bottom: -1000px;
+    width: 400px;
+    height: 300px;
+    border: 0;
+}
+
+#trailer{
+    position: absolute;
+    left: 310px;
+    bottom: -1900px;
+    width: 400px;
+    height: 300px;
+    border: 0px;
+}
+
+#gigsphasmoedit{
+    position: absolute;
+    left: 310px;
+    bottom: -2800px;
+    width: 400px;
+    height: 300px;
+    border: 0px;
+}
+/*Skjema*/
+#skjema{
+    position: relative;
+    bottom: -3535px;
+    background-color: rgba(169, 169, 169, 0.436);
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin: 20px 0;
+}
+
+textarea{
+    height: 100px;
+    width: 160px;
+}
+
+</style>
+
+</html>
